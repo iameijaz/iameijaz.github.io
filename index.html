@@ -1,45 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 40px;
-            text-align: center;
-        }
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-        h1 {
-            color: #2c3e50;
-        }
+.bgimg {
+  background-image: url('/images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-        p {
-            color: #7f8c8d;
-        }
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is a sample page for <strong>&lt;your-username&gt;.github.io</strong>.</p>
-    
-    <p>Check out my projects:</p>
-    <ul>
-        <li><a href="https://github.com/your-username/project1" target="_blank">Project 1</a></li>
-        <li><a href="https://github.com/your-username/project2" target="_blank">Project 2</a></li>
-        <!-- Add more projects as needed -->
-    </ul>
 
-    <p>Feel free to explore!</p>
+<div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
+
 </body>
 </html>
